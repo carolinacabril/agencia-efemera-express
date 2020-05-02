@@ -1,3 +1,8 @@
+//Add and Remove active class
+$(document).on('click', 'ul li', function() {
+  $(this).addClass('active').siblings().removeClass('active')
+})
+
 // Scroll navbar
 var scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1200,
