@@ -6,7 +6,7 @@
 ### Depois de clonado acessar a pasta do projeto e executar o seguinte comando
 - npm install
 
-### Após o comando acima executado execute um dos comandos abaixo para startar o servidor e pronto o acesso estará disponivel em http://localhost:3000/
+### Após o comando acima executado, execute um dos comandos abaixo para startar o servidor e pronto o acesso estará disponivel em http://localhost:3000/
 - nodemon start
 - node bin/www
 
