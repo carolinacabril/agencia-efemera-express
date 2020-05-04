@@ -70,3 +70,31 @@ section#teste{
     box-shadow: none; 
 }
 
+.alert-success {
+    margin-top: 140px!important;
+}
+
+@media (max-width: 575.98px) { 
+    .alert-success {
+        margin-top: 90px!important;
+    }
+
+    .pb-5, .py-5 {
+        padding-bottom: 1rem!important;
+    }
+
+    .pt-5, .py-5 {
+        padding-top: 0rem!important;
+    }
+
+    h2 {
+        padding-top: 30px;
+    }
+
+
+    .form-inline {
+        margin-bottom: 30px;
+    }
+}
+
+

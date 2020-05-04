@@ -18,7 +18,7 @@ const homeController = {
     res.render('contato', {nome, email, mensagem, title: 'contato'})
   },
   newsletter: (req, res) => {
-    let {emailNew} = req.body
+    let {emailNew} = req.query
     res.render('newsletter',{title: 'newsletter', emailNew})
   }
 }
